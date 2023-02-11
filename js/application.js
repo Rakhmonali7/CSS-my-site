@@ -2557,6 +2557,7 @@
           var t, e;
           for (t = 0; t < this.map.length; t++) e = this.map[t], e.el.style.strokeDashoffset = null, e.el.style.strokeDasharray = null, this.renderPath(t)
        }, n.prototype.isInvisible = function (t) {
+        // this.cleat*()
           var e, i = t.getAttribute("data-ignore");
           return null !== i ? "false" !== i : !!this.ignoreInvisible && (e = t.getBoundingClientRect(), !e.width && !e.height)
        }, n.prototype.parseAttr = function (t) {
